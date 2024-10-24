@@ -3,7 +3,7 @@ import notesContext from "./NotesContext";
 import alertContext from "./AlertContext";
 
 const NotesState = (props) => {
-  const host = "https://we-note-backend-livid.vercel.app/";
+  const host = "https://we-note-backend-nine.vercel.app/";
   const alertcontext = useContext(alertContext);
   const { setAlert } = alertcontext;
   const [notes, setNotes] = useState([]);
